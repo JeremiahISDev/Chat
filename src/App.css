@@ -2,32 +2,26 @@
 * {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, Fira Code;
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   letter-spacing: 0.5px;
 }
 
 .ce-chat-list {
-  background-color: rgb(255, 0, 255) !important;
+  background-color: rgb(240, 240, 240) !important;
 }
 
 .ce-chats-container {
-  background-color: rgb(0, 110, 255) !important;
-  border-radius: 0px !important;
+  background-color: rgb(240, 240, 240) !important;
 }
 
 .ce-active-chat-card {
-  background-color: rgba(0,212,255,1)  !important;
-  border: 4px solid rgba(0,212,255,1)  !important;
-  border-right: 5px solid #0000FF;
-  border-radius: 0% !important;
-}
-
-.ce-chat-title-text {
-  color: #ffffff !important;
+  background-color: #cabcdc !important;
+  border: 4px solid #cabcdc !important;
+  border-radius: 0px !important;
 }
 
 .ce-chat-subtitle-text {
-  color: #000000 !important;
+  color: #595959 !important;
 }
 
 .ce-chat-form-container {
@@ -36,12 +30,12 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #0000ff !important;
+  border: 1px solid #3b2a50 !important;
 }
 
 .ce-primary-button {
   border-radius: 6px !important;
-  background-color: #0000ff  !important;
+  background-color: #7554a0 !important;
   position: relative;
   bottom: 1px;
 }
@@ -57,12 +51,12 @@
 
 .ce-autocomplete-input {
   border-radius: 6px !important;
-  border: 1px solid #0000ff  !important;
+  border: 1px solid #3b2a50 !important;
 }
 
 .ce-autocomplete-options {
   border-radius: 6px !important;
-  border: 1px solid #0000ff  !important;
+  border: 1px solid #3b2a50 !important;
   background-color: white !important;
 }
 
@@ -90,13 +84,13 @@
 }
 
 .chat-title {
-  color: #0000ff;
+  color: #7554a0;
   font-weight: 800;
   font-size: 24px;
 }
 
 .chat-subtitle {
-  color: #0000ff;
+  color: #7554a0;
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
