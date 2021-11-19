@@ -22,10 +22,6 @@ const App = () => {
           body: `Click To View More or Reply`,
           icon: 'https://stem-club-chat.netlify.app/favicon.ico'
         });
-        // close the notification after 10 seconds
-        setTimeout(() => {
-          notification.close();
-        }, 10 * 1000);
 
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
