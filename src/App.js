@@ -41,8 +41,8 @@ const App = () => {
       projectID={projectID}
       userName={localStorage.getItem('username')}
       userSecret={localStorage.getItem('password')}
-      onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()
-	  }
+     onNewMessage={(data, message) => showNotification(JSON.stringify(message)).then(console.log).then(new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play())
+      }
     />
   );
 };
