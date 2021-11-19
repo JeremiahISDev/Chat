@@ -68,6 +68,23 @@
   display: none !important;
 }
 
+.ce-my-message-bubble{
+  background: rgb(0,0,255);
+  background: -moz-linear-gradient(135deg, rgba(0,0,255,1) 0%, rgba(0,136,255,1) 33%, rgba(0,221,255,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(0,0,255,1) 0%, rgba(0,136,255,1) 33%, rgba(0,221,255,1) 100%);
+  background: linear-gradient(135deg, rgba(0,0,255,1) 0%, rgba(0,136,255,1) 33%, rgba(0,221,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000ff",endColorstr="#00ddff",GradientType=1);
+}
+
+.ce-their-message-bubble{
+  background: rgb(172,172,172);
+  background: -moz-linear-gradient(245deg, rgba(172,172,172,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(245deg, rgba(172,172,172,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(245deg, rgba(172,172,172,1) 0%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acacac",endColorstr="#ffffff",GradientType=1);
+}
+
+
 /* CUSTOM FEED */
 
 .chat-feed {
@@ -106,6 +123,7 @@
 .message-block {
   width: 100%;
   display: inline-block;
+	
 }
 
 .message-avatar {
@@ -124,6 +142,7 @@
   font-size: 16px;
   border-radius: 6px;
   max-width: 60%;
+	background: #00CCFF; background: -webkit-linear-gradient(bottom right, #00CCFF, #0000FF); background: -moz-linear-gradient(bottom right, #00CCFF, #0000FF); background: linear-gradient(to top left, #00CCFF, #0000FF);
 }
 
 .message-image {
